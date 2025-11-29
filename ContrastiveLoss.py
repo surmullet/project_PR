@@ -21,5 +21,3 @@ class ContrastiveLoss(nn.Module):
         loss=pos+neg
 
         return loss.mean()
-
-
